@@ -26,6 +26,7 @@ class BAppTheme {
     elevatedButtonTheme: BElevatedButtonTheme.lightElevatedButtonTheme,
     outlinedButtonTheme: BOutlinedButtonTheme.lightOutlinedButtonTheme,
     inputDecorationTheme: BTextFormFieldTheme.lightInputDecorationTheme,
+    // bottomNavigationBarTheme: BBottomNavigationTheme.lightBottomNavigationBarTheme,
   );
 
   /// Dark Theme
@@ -43,5 +44,6 @@ class BAppTheme {
     elevatedButtonTheme: BElevatedButtonTheme.darkElevatedButtonTheme,
     outlinedButtonTheme: BOutlinedButtonTheme.darkOutlinedButtonTheme,
     inputDecorationTheme: BTextFormFieldTheme.darkInputDecorationTheme,
+    // bottomNavigationBarTheme: BBottomNavigationTheme.darkBottomNavigationBarTheme,
   );
 }
