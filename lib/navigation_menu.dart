@@ -1,4 +1,7 @@
 import 'package:benri/features/conviStore/screens/basket_page.dart';
+import 'package:benri/features/conviStore/screens/fridge_page.dart';
+import 'package:benri/features/conviStore/screens/profile_page.dart';
+import 'package:benri/features/conviStore/screens/recipes_page.dart';
 import 'package:benri/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -14,7 +17,7 @@ class NavigationMenu extends StatelessWidget {
     return Scaffold(
       bottomNavigationBar: Obx(
         () => NavigationBar(
-          backgroundColor: BColors.light,
+          backgroundColor: BColors.white,
           indicatorColor: BColors.grey,
           height: 80,
           elevation: 0,
@@ -41,8 +44,8 @@ class NavigationController extends GetxController {
 
   final screens = [
     const BasketPage(),
-    Container(color: Colors.purple),
-    Container(color: Colors.grey),
-    Container(color: Colors.brown),
+    const FridgePage(),
+    const ProfilePage(),
+    const RecipesPage(),
   ];
 }
